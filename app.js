@@ -1,20 +1,13 @@
-// JavaScript for Capstone Project Update #1 - Cason Robins
+// Toggle the deployment checklist visibility
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("toggleChecklist");
+  const checklist = document.getElementById("deploymentChecklist");
+  if (!toggleButton || !checklist) return;
 
-// Wait for the page to load
-document.addEventListener("DOMContentLoaded", () => {
-  const toggleButton = document.getElementById("toggle");
-  const checklist = document.getElementById("checklist");
-
-  // When the button is clicked, toggle visibility
   toggleButton.addEventListener("click", () => {
-    if (checklist.style.display === "none") {
-      checklist.style.display = "block";
-      toggleButton.textContent = "Hide Deployment Checklist";
-    } else {
-      checklist.style.display = "none";
-      toggleButton.textContent = "Show Deployment Checklist";
-    }
+    const isHidden = checklist.classList.toggle("hidden");
+    toggleButton.textContent = isHidden
+      ? "Show deployment checklist"
+      : "Hide deployment checklist";
   });
-
-  console.log("Capstone Project JavaScript loaded successfully.");
 });
