@@ -1,56 +1,70 @@
-# Capstone Project Update #1 – Using GitHub  
+# Capstone Project Update #2 of 2 – Web Development Project on GitHub
+
 **Author:** Cason Robins  
 **Course:** Web Development  
 **Date:** November 2025  
 
----
+## Project Overview
 
-## Project Overview  
-This repository demonstrates proper file organization, code structure, and website deployment using GitHub Pages. It serves as the first update in my Capstone Project series, focusing on repository management, collaboration readiness, and deployment workflow.
+This repository contains my Web Development capstone project. The goal of the project is to practice professional site structure, clean HTML and CSS, basic JavaScript interactivity, and deployment using GitHub Pages. The site includes a home page, an about page, a products page, and a sitemap.
 
----
+## Features
 
-## Repository Structure  
-The repository contains the following files:
-- index.html – Main webpage for the project.  
-- styles.css – Defines visual presentation and layout.  
-- app.js – Adds interactivity using JavaScript.  
-- README.md – Provides project overview and usage instructions.  
+- Home page with a hero slideshow and navigation links  
+- About page that explains the purpose of the capstone project and the technologies used  
+- Products page that displays sample items in a clean, responsive layout  
+- Sitemap page that lists all main files in the project for easy navigation  
+- Shared styling using the external `styles.css` file  
+- JavaScript interactivity through `app.js`  
 
-All files are organized directly in the root directory to comply with course guidelines and ensure easy access during grading and deployment.
+## File Structure
 
----
+All project files are stored in the root of the repository:
 
-## Deployment Instructions  
-1. Go to the repository Settings → Pages.  
-2. Under Branch, select main, then click Save.  
-3. Wait a few minutes for GitHub Pages to deploy your site.  
-4. Your project will be viewable at:  
-   https://casonrobins.github.io/MyFirstProject/
+- `index.html` – Home page with slideshow  
+- `Robins_Cason_CapstoneProject.html` – About page for the capstone project  
+- `products.html` – Products listing page  
+- `sitemap.html` – Sitemap page listing pages and key files  
+- `styles.css` – Main stylesheet for layout and design  
+- `app.js` – JavaScript for interactive features  
+- `README.md` – Project overview and setup instructions  
 
----
+## Technologies Used
 
-## Usage Instructions  
-Click the “Show Deployment Checklist” button on the webpage to toggle visibility of key setup steps.  
-This interaction demonstrates JavaScript functionality within the deployed site.
+- HTML5 for page structure  
+- CSS3 for layout and styling  
+- JavaScript for interactivity  
+- GitHub and GitHub Pages for version control and deployment  
 
----
+## Setup Instructions
 
-## Technologies Used  
-- HTML5  
-- CSS3  
-- JavaScript  
-- GitHub Pages  
+To run this project locally:
 
----
+1. Clone or download the repository.  
+2. Open the project folder on your computer.  
+3. Open `index.html` in any web browser.  
+4. Use the navigation menu to view the About, Products, and Sitemap pages.
 
-## Summary  
-This submission fulfills all Capstone Project Update #1 requirements by showcasing:
-- Proper project organization  
-- Functional HTML, CSS, and JS files  
-- A comprehensive and professional README file  
-- A deployable website using GitHub Pages  
+No build tools or server setup are required.
 
----
+## Live Deployment Link
 
-© 2025 Cason Robins | University of West Georgia
+View the deployed project on GitHub Pages:
+
+**https://casonrobins.github.io/Robins_Cason_CapstoneProject/**
+
+(If your actual GitHub Pages URL is slightly different, update it here.)
+
+## Usage Notes
+
+- Use the top navigation menu to move between the Home, About, Products, and Sitemap pages.  
+- The slideshow controls on the home page demonstrate JavaScript functionality.  
+- The sitemap helps reviewers quickly verify all project files in the project.
+
+## Future Improvements
+
+Possible enhancements include:
+
+- Adding more detailed content and images to the Products page  
+- Improving responsiveness for very small screens  
+- Adding automatic slide transitions or more advanced JavaScript features  
